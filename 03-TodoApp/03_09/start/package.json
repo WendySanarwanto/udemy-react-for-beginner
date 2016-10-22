@@ -1,7 +1,7 @@
 {
-  "name": "03_08",
+  "name": "03_09",
   "version": "0.1.0",
-  "description": "React TODO App Lesson 3_8",
+  "description": "React TODO App Lesson 3_9",
   "devDependencies": {
     "babel-cli": "^6.16.0",
     "babel-preset-react": "^6.16.0"
