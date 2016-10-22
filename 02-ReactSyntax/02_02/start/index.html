@@ -8,8 +8,10 @@
 
 
     <!-- React -->
-    <script src="https://fb.me/react-0.14.1.min.js"></script>
-    <script src="https://fb.me/react-dom-0.14.1.min.js"></script>
+	<!--<script src="https://fb.me/react-0.14.1.min.js"></script>
+    <script src="https://fb.me/react-dom-0.14.1.min.js"></script>-->
+	<script src="https://unpkg.com/react@15/dist/react.js"></script>
+	<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
     <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
 
     <style>
@@ -35,7 +37,7 @@
 
           return (
                   <div>
-                    <h1>Hello World!</h1>
+                    <h1>Hello {this.props.name}!</h1>
                   </div>
 
           );
@@ -43,7 +45,7 @@
 
       });
 
-      React.render(<HelloWorld />, document.body);
+      ReactDOM.render(<HelloWorld name="Wendy"/>, document.getElementById('example'));
 
     </script>
   </body>

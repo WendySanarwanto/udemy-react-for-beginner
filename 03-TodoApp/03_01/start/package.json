@@ -1,0 +1,19 @@
+{
+  "name": "03_01",
+  "version": "0.1.0",
+  "description": "React TODO App Lesson 3_1",
+  "dependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-react": "^6.16.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-react": "^6.16.0"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wendy.sanarwanto@gmail.com",
+  "license": "ISC"
+}
